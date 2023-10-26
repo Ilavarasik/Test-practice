@@ -35,6 +35,7 @@ public class GroceryTestcase extends GroceryUtils {
         Thread.sleep(2000);
        // logger.info("signup account");
         Grocerypom.createanaccount.click();
+        logger.info("my account");
         Grocerypom.userrname.sendKeys(properties.getProperty("name"));
         Grocerypom.phonenumber.sendKeys(properties.getProperty("number"));
         Grocerypom.mail.sendKeys(properties.getProperty("mail"));
