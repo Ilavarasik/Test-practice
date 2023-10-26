@@ -54,6 +54,8 @@ public class GroceryUtils {
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
     }
+    public void screenshot(){
+    }
     @AfterSuite
     public void teardown(){
         logger.info("Execution done");
